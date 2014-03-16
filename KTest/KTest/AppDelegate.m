@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  KTest
 //
-//  Created by 熊谷 早希子 on 2014/03/16.
-//  Copyright (c) 2014年 Toyship.org. All rights reserved.
+//  Created by Tachibana Kaoru on 17/03/2014.
+//  Copyright (c) 2014 Toyship.org. All rights reserved.
 //
 
 #import "AppDelegate.h"

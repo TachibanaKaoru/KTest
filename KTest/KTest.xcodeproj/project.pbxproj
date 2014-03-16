@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1821BAC018D5FB1D00B27819 /* kanbase.png in Resources */ = {isa = PBXBuildFile; fileRef = 1821BABF18D5FB1D00B27819 /* kanbase.png */; };
+		1821BAC218D5FB2200B27819 /* 006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1821BAC118D5FB2200B27819 /* 006.jpg */; };
+		1821BAC718D606C800B27819 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1821BAC618D606C800B27819 /* flower.jpg */; };
+		1821BACA18D6085600B27819 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821BAC918D6085600B27819 /* MyObject.m */; };
 		D52B777D18D5C12800A264C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52B777C18D5C12800A264C2 /* Foundation.framework */; };
 		D52B777F18D5C12800A264C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52B777E18D5C12800A264C2 /* CoreGraphics.framework */; };
 		D52B778118D5C12800A264C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52B778018D5C12800A264C2 /* UIKit.framework */; };
@@ -22,8 +26,7 @@
 		D52B77A118D5C12800A264C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52B778018D5C12800A264C2 /* UIKit.framework */; };
 		D52B77A918D5C12800A264C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D52B77A718D5C12800A264C2 /* InfoPlist.strings */; };
 		D52B77AB18D5C12800A264C2 /* KTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D52B77AA18D5C12800A264C2 /* KTestTests.m */; };
-		D52B77B618D5C28B00A264C2 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = D52B77B518D5C28B00A264C2 /* Apple.m */; };
-		D52B77B818D5D1E100A264C2 /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D52B77B718D5D1E100A264C2 /* 001.jpg */; };
+		D52B77B618D5C28B00A264C2 /* Kanmusu.m in Sources */ = {isa = PBXBuildFile; fileRef = D52B77B518D5C28B00A264C2 /* Kanmusu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1821BABF18D5FB1D00B27819 /* kanbase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanbase.png; sourceTree = "<group>"; };
+		1821BAC118D5FB2200B27819 /* 006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006.jpg; sourceTree = "<group>"; };
+		1821BAC618D606C800B27819 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
+		1821BAC818D6085600B27819 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		1821BAC918D6085600B27819 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 		D52B777918D5C12800A264C2 /* KTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52B777C18D5C12800A264C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D52B777E18D5C12800A264C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,9 +65,8 @@
 		D52B77A618D5C12800A264C2 /* KTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KTestTests-Info.plist"; sourceTree = "<group>"; };
 		D52B77A818D5C12800A264C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D52B77AA18D5C12800A264C2 /* KTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTestTests.m; sourceTree = "<group>"; };
-		D52B77B418D5C28B00A264C2 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
-		D52B77B518D5C28B00A264C2 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
-		D52B77B718D5D1E100A264C2 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		D52B77B418D5C28B00A264C2 /* Kanmusu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kanmusu.h; sourceTree = "<group>"; };
+		D52B77B518D5C28B00A264C2 /* Kanmusu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kanmusu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,15 +126,19 @@
 		D52B778218D5C12800A264C2 /* KTest */ = {
 			isa = PBXGroup;
 			children = (
-				D52B77B418D5C28B00A264C2 /* Apple.h */,
-				D52B77B518D5C28B00A264C2 /* Apple.m */,
+				1821BAC818D6085600B27819 /* MyObject.h */,
+				1821BAC918D6085600B27819 /* MyObject.m */,
+				D52B77B418D5C28B00A264C2 /* Kanmusu.h */,
+				D52B77B518D5C28B00A264C2 /* Kanmusu.m */,
 				D52B778B18D5C12800A264C2 /* AppDelegate.h */,
 				D52B778C18D5C12800A264C2 /* AppDelegate.m */,
 				D52B778E18D5C12800A264C2 /* Main_iPhone.storyboard */,
 				D52B779118D5C12800A264C2 /* Main_iPad.storyboard */,
 				D52B779418D5C12800A264C2 /* ViewController.h */,
 				D52B779518D5C12800A264C2 /* ViewController.m */,
-				D52B77B718D5D1E100A264C2 /* 001.jpg */,
+				1821BAC618D606C800B27819 /* flower.jpg */,
+				1821BABF18D5FB1D00B27819 /* kanbase.png */,
+				1821BAC118D5FB2200B27819 /* 006.jpg */,
 				D52B779718D5C12800A264C2 /* Images.xcassets */,
 				D52B778318D5C12800A264C2 /* Supporting Files */,
 			);
@@ -240,10 +251,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D52B779318D5C12800A264C2 /* Main_iPad.storyboard in Resources */,
+				1821BAC018D5FB1D00B27819 /* kanbase.png in Resources */,
 				D52B779818D5C12800A264C2 /* Images.xcassets in Resources */,
+				1821BAC718D606C800B27819 /* flower.jpg in Resources */,
 				D52B779018D5C12800A264C2 /* Main_iPhone.storyboard in Resources */,
 				D52B778718D5C12800A264C2 /* InfoPlist.strings in Resources */,
-				D52B77B818D5D1E100A264C2 /* 001.jpg in Resources */,
+				1821BAC218D5FB2200B27819 /* 006.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52B77B618D5C28B00A264C2 /* Apple.m in Sources */,
+				D52B77B618D5C28B00A264C2 /* Kanmusu.m in Sources */,
 				D52B779618D5C12800A264C2 /* ViewController.m in Sources */,
 				D52B778D18D5C12800A264C2 /* AppDelegate.m in Sources */,
 				D52B778918D5C12800A264C2 /* main.m in Sources */,
+				1821BACA18D6085600B27819 /* MyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +494,7 @@
 				D52B77B018D5C12800A264C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D52B77B118D5C12800A264C2 /* Build configuration list for PBXNativeTarget "KTestTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +503,7 @@
 				D52B77B318D5C12800A264C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
